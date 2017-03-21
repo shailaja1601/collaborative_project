@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="resources/css/bootstrap.min.css" />
+<script src="resources/js/bootstrap.min.js"></script>
+
+</head>
+<body data-ng-app="myApp">
+	<div class="container" data-ng-controller="BlogController as ctrl">
+		<br/><br/><br/><br/><br/><br/>
+		<h2 style="color:white">Add new Blog</h2>
+		<form class="form-horizontal" name="myForm" role="form" data-ng-submit="ctrl.submit()">
+			
+			<div class="form-group" data-ng-class="{'has-error': form.blogtitle.$dirty && form.blogtitle.$error.required}">
+				<label for="blogtitle" class="col-sm-3 control-label" style="text-align: right;color:white;">Blog Title:</label>
+				<div class="col-sm-6">
+					<input type="text" name="blogtitle" id="blogtitle" class="form-control" placeholder="Blog Title"
+						data-ng-model="ctrl.blog.blogtitle" required />
+						<span data-ng-show="form.blogtitle.$dirty && form.blogtitle.$error.required" class="help-block"></span>
+				</div>
+			</div>
+			
+			<div class="form-group" data-ng-class="{'has-error': form.description.$dirty && form.description.$error.required}">
+				<label for="description" class="col-sm-3 control-label">Blog Description :</label>
+				<div class="col-sm-6">
+					<textarea rows="5" cols="80" id="description" name="description" class="form-control" data-ng-model="ctrl.blog.description" required></textarea>
+					<span data-ng-show="form.description.$dirty && form.description.$error.required" class="help-block"></span>
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-6">
+					<button type="submit" data-ng-disabled="form$invalid || ctrl.dataLoading" class="btn btn-info">Create Blog?</button>
+					<button type="reset" class="btn btn-danger" data-ng-click="ctrl.reset()" >Clear</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

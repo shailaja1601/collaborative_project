@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="resources/css/bootstrap.min.css" />
+<script src="resources/js/bootstrap.min.js"></script>
+<style>
+
+.panel{
+ border-radius: 5px;
+background-color:rgba(255,255,255,0.1);
+padding:15px;
+}
+</style>
+</head>
+<body data-ng-app="myApp">
+<div class="col-xs-10 col-sm-offset-1">
+<div class="panel-body">
+	<div class="generic-container" data-ng-controller="JobController as ctrl">
+		
+		<h3 style="color:white">List of Vacancies</h3>
+		<h4 style="color:white">Search Category:</h4><input type="text" class="form-control control-label" size="80" ng-model="searchTerm" /><br/>
+
+
+		
+			<div data-ng-repeat="uj in ctrl.jobs | filter:searchTerm">
+			<div class="panel"> 
+					<div class="panel-heading">
+					<!-- <h3>ID: {{uj.jobID}}<h3></h3> &nbsp;  &nbsp;  &nbsp; -->
+						<h3 class="panel-title" style="font-weight: bold;color:white"><b>{{uj.title}}</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<span style="color:white;">{{uj.qualification}}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</h3>
+					</div>
+					<h5>Job Description</h5> <b style="color:white">{{uj.description}}<br/><br/></b>
+				
+					<h5 style="color:white">Post Date </h5><b style="color:white">{{uj.dateTime}}&nbsp;&nbsp;</b>
+					<br/><br/>
+					<button data-ng-show="currentUser.userId" class="pull-center" style="font-weight: bold;" data-ng-click="ctrl.applyForJob(uj.jobID)">
+						<span >Apply</span>
+					</button>
+					
+				</div>
+			</div>
+		</div>
+		</div>
+		 </div> 
+</body>
+</html>

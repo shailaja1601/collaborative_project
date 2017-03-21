@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+ .panel-body{
+ margin-top:20px;
+ border-radius: 20px;
+background-color:rgba(255,255,255);
+color:white;
+}  
+
+</style>
+</head>
+<body>
+   <div data-ng-controller="FriendController as ctrl">
+   <div class="col-xs-6 col-sm-offset-1">
+       <div class="panel-body">
+       <div data-ng-repeat="friend in ctrl.friends" data-ng-hide="friend.status=='N'">
+        <div data-ng-repeat="user in ctrl.users" data-ng-show="currentUser.userId!=user.userId" style="color:white">
+       
+       <div data-ng-hide="user.status=='N'">
+        User ID : {{user.userId}}<br>
+		User Name : {{user.name}}<br>
+		User MailID : {{user.mailID}}
+		<button class="btn btn-primary" style="float:right;" data-ng-click="ctrl.addFriend(user.userId)">Send Friend Request</button>
+  <br><br> </div>
+  </div>
+   </div>
+   </div>
+   </div>
+  </div>
+  <!--  <div data-ng-controller="UserController as ctrl">
+   
+         
+		<div data-ng-repeat="user in ctrl.users" data-ng-show="currentUser.userId!=user.userId">
+		<div  data-ng-controller="FriendController as ctr">
+		<div data-ng-repeat="friend in ctr.friends">
+		
+		User ID : {{user.userId}}<br>
+		User Name : {{user.name}}<br>
+		User MailID : {{user.mailID}}
+		</div>
+		</div>
+		
+		</div>
+		</div>
+	        </div>
+        </div></div> -->
+</body>
+</html>

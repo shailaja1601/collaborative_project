@@ -1,0 +1,134 @@
+<head>
+<style>
+
+h3,label{
+color:white;
+}
+
+.panel-body{
+margin-top:20px;
+ border-radius: 20px;
+background-color:rgba(255,255,255,0.1);
+}
+
+ .btn {
+      padding: 10px 20px;
+      color: #f1f1f1;
+      border-radius: 7px;
+      transition: .2s;
+      float:right;
+      margin-right:30px; 
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #66CDAA;
+      color: #000;
+  }
+</style>
+</head>
+<body>
+	<div data-ng-controller="UserController as ctrl">
+<div class="col-md-6 col-md-offset-3">
+			<div class="panel panel-body">
+				
+					<h3>My Profile </h3>
+				
+				<div class="formcontainer">
+					<form data-ng-submit="ctrl.updateUser()" name="myForm" class="form-horizontal">
+
+							
+							<div class="form-group col-md-12">
+								<label class="col-sm-2 control-lable" for="userId">ID</label>  
+								<div class="col-md-10">
+								
+									<input type="text"  value={{currentUser.userId}} data-ng-model="ctrl.user.userId" id="userId"
+										class="userid form-control input-sm"
+										placeholder="Enter your ID" required data-ng-minlength="3" /> 
+								</div>
+							
+						</div>
+                           
+                           <div class="form-group col-md-12">
+								<label class="col-sm-2 control-lable" for="role">Role</label>  
+								<div class="col-md-10">  <!-- value= {{currentUser.role}} -->
+									<input type="text"   data-ng-bind="ctrl.user.role" data-ng-model="ctrl.user.role" id="role"
+										class="userid form-control input-sm"
+										required 
+       data-ng-disabled="true" />
+								</div>
+							
+						</div>
+                           
+
+						
+							<div class="form-group col-md-12">
+								<label class="col-sm-2 control-lable" for="name">Name</label>
+								<div class="col-md-10">   <!-- value= {{currentUser.name}}  -->
+									<input type="text"  data-ng-bind="ctrl.user.name" data-ng-model="ctrl.user.name" id="name"
+										class="username form-control input-sm"
+										placeholder="Enter your name" required data-ng-minlength="3" />
+								</div>
+							</div>
+						
+
+						
+							<div class="form-group col-md-12">
+								<label class="col-sm-2 control-lable" for="password">Password</label>
+								<div class="col-md-10">  <!-- value= {{currentUser.password}} -->
+									<input type="password"  data-ng-bind="ctrl.user.password" data-ng-model="ctrl.user.password"
+										id="password" class="username form-control input-sm"
+										placeholder="Enter your password" required data-ng-minlength="3" />
+								</div>
+							</div>
+						
+
+
+						
+							<div class="form-group col-md-12">
+								<label class="col-sm-2 control-lable" for="mailID">Email</label>
+								<div class="col-md-10">  <!-- value= {{currentUser.mailID}} -->
+									<input type="email"  data-ng-bind="ctrl.user.mailID" data-ng-model="ctrl.user.mailID" id="mailID"
+										class="email form-control input-sm"
+										placeholder="Enter your Email" required />
+
+								</div>
+							</div>
+						
+							<div class="form-group col-md-12">
+								<label class="col-sm-2 control-lable" for="mobile">Mobile</label>
+								<div class="col-md-10">  <!-- value= {{currentUser.mobile}} -->
+									<input type="tel"  data-ng-bind="ctrl.user.mobile" data-ng-model="ctrl.user.mobile" id="mobile"
+										class="mobile form-control input-sm"
+										placeholder="Enter your contact number" required />
+
+								</div>
+							</div>
+						
+							 <div class="form-group col-md-12">
+								<label class="col-sm-2 control-lable" for="address">Address</label>
+								<div class="col-md-10">  <!-- value= {{currentUser.address}} -->
+									<input type="text"   width="100" height="50"
+									  data-ng-model="ctrl.user.address"
+										data-ng-bind="ctrl.user.address" id="address"
+										class="form-control input-sm"
+										placeholder="Enter your Address." />
+								</div> 
+							</div>
+						<br><br>
+						<div class="form-actions">
+					<button class="btn btn-primary" type="submit">
+						<i class="fa fa-user-circle"
+							style="font-size: 17px;"></i> <b>Update</b>
+					</button>
+							</div>
+							</form>
+					</div>
+				</div>
+			</div>
+</div>
+		
+		
+	
+
+
+</body>

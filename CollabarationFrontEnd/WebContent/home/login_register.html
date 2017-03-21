@@ -1,0 +1,200 @@
+
+<head>
+
+<style>
+.login{
+margin-top:50px;
+margin-left:50px;
+
+}
+h1,h5{
+color:white;
+}
+.register{
+margin-top:50px;
+}
+.panel-body{
+ border-radius: 20px;
+background-color:rgba(255,255,255,0.1);
+}
+.login .panel-body{
+height:400px;
+}
+ .btn {
+      padding: 10px 20px;
+      color: #f1f1f1;
+      border-radius: 7px;
+      transition: .2s;
+      float:right;
+      margin-right:30px; 
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #66CDAA;
+      color: #000;
+  }
+   .radio{
+  color:white;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+    <div class="col-xs-6 col-md-5">
+    <div class="register" >
+    <div class="panel-body">
+    <div data-ng-controller="UserController as ctrl">
+					<h1>User Registration Form</h1>
+					<div class="formcontainer">
+					<form data-ng-submit="ctrl.submit()" name="myForm"
+						class="form-horizontal">
+						<h5>Register As..</h5>
+						
+							<div class="radio">
+								<label class="radio-inline"> <input type="radio"
+									name="role" value="student" data-ng-model="ctrl.user.role">
+									Student
+								</label> <label class="radio-inline"> <input type="radio"
+									name="role" value="alumni" data-ng-model="ctrl.user.role">
+									Alumni
+								</label> <label class="radio-inline"> <input type="radio"
+									name="role" value="employee" data-ng-model="ctrl.user.role">
+									Employee
+								</label>
+							</div>
+                          <br>
+                           
+						<div class="form-group col-md-12">
+								<div class="input-group margin-bottom-sm"> 
+								<span class="input-group-addon"> <i class="fa fa-key"></i></span>
+									<input type="text" data-ng-model="ctrl.user.userId" id="userId"
+										class="userid form-control input-sm"
+										placeholder="Enter your User ID" required data-ng-minlength="3" />
+								</div>
+							</div>
+												
+							<div class="form-group col-md-12">
+								<div class="input-group margin-bottom-sm"> 
+								<span class="input-group-addon"> <i class="fa fa-key"></i></span>
+									<input type="text" data-ng-model="ctrl.user.name" id="name"
+										class="usernam form-control input-sm"
+										placeholder="Enter your name" required data-ng-minlength="3" />
+								</div>
+							</div>
+												
+							<div class="form-group col-md-12">
+								<div class="input-group margin-bottom-sm"> 
+								<span class="input-group-addon"> <i class="fa fa-key"></i></span>
+									<input type="password" data-ng-model="ctrl.user.password"
+										id="password" class="usernam form-control input-sm"
+										placeholder="Enter your password" required data-ng-minlength="3" />
+								</div>
+							</div>
+												
+							<div class="form-group col-md-12">
+								<div class="input-group margin-bottom-sm"> 
+								<span class="input-group-addon"> <i class="fa fa-key"></i></span>
+									<input type="email" data-ng-model="ctrl.user.mailID id="mailID"
+										class="email form-control input-sm"
+										placeholder="Enter your E-mail ID" required />
+
+								</div>
+							</div>
+											
+							<div class="form-group col-md-12">
+								<div class="input-group margin-bottom-sm"> 
+								<span class="input-group-addon"> <i class="fa fa-key"></i></span>
+									<input type="tel" data-ng-model="ctrl.user.mobile" id="mobile"
+										class="mobile form-control input-sm"
+										placeholder="Enter your contact number" required />
+
+								</div>
+							</div>
+												
+							<div class="form-group col-md-12">
+								<div class="input-group margin-bottom-sm"> 
+								<span class="input-group-addon"> <i class="fa fa-key"></i></span>
+									<input type="text" width="100" height="50"
+										data-ng-model="ctrl.user.address" id="address"
+										class="form-control input-sm"
+										placeholder="Enter your Address." />
+								</div>
+							</div>
+												
+							<!-- <div class="form-actions floatRight"> -->
+							<div class="form-actions">
+					<button class="btn btn-primary" type="submit" data-ng-disabled="form.$invalid || ctrl.dataLoading">
+						<i class="fa fa-user-circle"
+							style="font-size: 17px;"></i> <b>Register</b>
+					</button>
+								<button type="button" data-ng-click="ctrl.reset()"
+									class="btn btn-warning btn-sm">Reset Form</button>
+							</div>
+						</form>
+				</div>
+			</div>
+					
+	</div>
+    </div>
+    </div>    
+    
+  <div class="col-xs-12 col-sm-6">
+  <div class="login">
+  <div class="panel-body">
+  <div data-ng-controller="UserController as ctrl">
+  <h1>Login</h1>
+			   <h5>If already register please login here </h5>
+			  <!--  <div data-ng-show='ctrl.user.errorMessage'>
+		<div class="alert alert-danger fade in">
+			{{ctrl.user.errorMessage}}</div>
+	</div> -->
+		<span data-ng-hide="ctrl.userLoggedIn">	   
+         <form name="form" ng-submit="ctrl.login()" role="form">
+          <div class="form-group"
+				data-ng-class="{ 'has-error': form.username.$dirty && form.username.$error.required }">
+				<div class="input-group margin-bottom-sm">
+					<span class="input-group-addon"><i
+						class="fa fa-envelope-o fa-fw"></i></span>
+						
+						 <input class="form-control" type="text" placeholder="Enter your User ID" name="username" id="userId" data-ng-model="ctrl.user.userId" required/>
+				       </div>
+				        <span data-ng-show="form.username.$dirty && form.username.$error.required"
+					class="help-block">Username is required</span>
+				
+				</div>
+				<br>
+				<div class="form-group"
+				data-ng-class="{ 'has-error': form.password.$dirty && form.password.$error.required }">
+				
+				<div class="input-group">
+					<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+ 
+					<input class="form-control" type="password" placeholder="Password" id="password"
+						name="password" data-ng-model="ctrl.user.password" required />
+				</div>
+				<span data-ng-show="form.password.$dirty && form.password.$error.required"
+					class="help-block">Password is required</span>
+				</div>
+				
+
+				<div class="form-actions">
+					<button class="btn btn-primary" type="submit"  data-ng-disabled="form.$invalid || ctrl.dataLoading">   
+						<i class="fa fa-user-circle"
+							style="font-size: 17px; color: rgb(47, 79, 79)"></i> SUBMIT
+					</button>
+				</div>
+			</form>
+			</span>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+ 
+  </body>
+
+
+
+
+

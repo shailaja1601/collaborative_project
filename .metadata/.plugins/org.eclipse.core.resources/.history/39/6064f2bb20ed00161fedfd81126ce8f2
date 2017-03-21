@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+.navbar a{
+color:white;
+}
+.nav li a:hover{
+ background:orange;
+}
+.navbar-header{
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    cursor:pointer;
+}
+.navbar-brand  {
+float:none;
+color:white;
+font-size:35px;
+  }
+  
+    
+</style>
+</head>
+<body>
+
+<div data-ng-controller="UserController as ctrl">
+
+    <nav class="navbar navbar-custom">
+       <div class="container-fluid">
+          <ul class="nav navbar-nav">
+		  <li><a href="#">Home</a></li>
+          <li><a href="#/aboutUS">About us</a></li>
+          <li><a href="#">Contact us</a></li>
+		  <li data-ng-hide="currentUser.userId"><a href="#/">Login</a></li>
+		  <li data-ng-hide="currentUser.userId"><a href="#/register">Sign up</a></li>
+         </ul>
+				
+		 <ul class="nav navbar-nav navbar-right">
+          <li><a  id="menu1" data-toggle="dropdown">Blogs
+           <span class="caret"></span></a>
+           <ul class="dropdown-menu"  aria-labelledby="menu1">
+      <li><a href="#/fetchAllBlogs">View Blogs</a></li>
+      <li data-ng-show="currentUser.status=='A'"><a href="#/createNewBlog">Post Blogs</a></li>
+      <li data-ng-show="currentUser.status=='A'"><a href="#/createNewBlog">My Blogs</a></li>
+      <li data-ng-show="currentUser.role=='Admin'"><a href="#/blogsApp">Blogs Applications</a></li>
+                </ul>
+          </li>
+          
+          <li data-ng-show="currentUser.status=='A'"><a id="menu2" data-toggle="dropdown">Friends<span class="caret"></span></a>
+          <ul class="dropdown-menu"  aria-labelledby="menu2">
+         
+      <li><a href="#/friends">My Friends</a></li>
+      <li><a href="#/friendsRequest">Pending Request</a></li>
+      <li><a href="#/allUsers">View All Users</a></li>
+                </ul>
+          </li>
+          
+          <li><a  id="menu3" data-toggle="dropdown">Jobs<span class="caret"></span></a>
+          <ul class="dropdown-menu"  aria-labelledby="menu3">
+      <li><a href="#/getAllJobs">View All Jobs</a></li>
+      <li data-ng-show="currentUser.status=='A'"><a href="#/getMyAppliedJobs">Applied Jobs</a></li>
+      <li data-ng-show="currentUser.role=='Admin'"><a href="#/postAJob">Post Jobs</a></li>
+      <!-- <li data-ng-show="currentUser.role=='Admin'"><a href="#">Jobs Applications</a></li> -->
+          </ul>
+          </li>
+		 <!--  <li><a id="menu4" data-toggle="dropdown">Events<span class="caret"></span></a>
+		  <ul class="dropdown-menu"  aria-labelledby="menu4">
+      <li><a href="#">View Events</a></li>
+      <li data-ng-show="currentUser.status=='A'"><a href="#">Post Events</a></li>
+      <li data-ng-show="currentUser.role=='Admin'"><a href="#">Accept Events</a></li>
+      
+          </ul>
+		  </li> -->
+		 <!--  <li data-ng-show="currentUser.status=='A'"><a id="menu5" data-toggle="dropdown">Forums<span class="caret"></span></a>
+		  <ul class="dropdown-menu"  aria-labelledby="menu5">
+      <li><a href="#">View Forum</a></li>
+      <li><a href="#">Create Forum</a></li>
+      <li><a href="#">My Forum</a></li>
+                </ul>
+		  </li> -->
+		   
+		  <li data-ng-show="currentUser.userId"><a id="menu5" data-toggle="dropdown">Welcome :  {{currentUser.name}} <span class="caret"></span></a> 
+		       <ul class="dropdown-menu"  aria-labelledby="menu4">
+       <li><a href="#/myProfile">My Profile</a></li>
+       <li><a href="#/uploadPic">Upload Picture</a></li>
+       <li data-ng-show="currentUser.role=='Admin'"><a href="#/seeUsers">Show users</a></li>
+      <li><a href="#/" data-ng-click="ctrl.logout()">Logout</a></li>
+          </ul>
+		  </li> 
+         </ul>
+		</div>
+       
+    </nav>
+	
+	
+	<nav class="navbar navbar-light bg-faded" >
+	
+	 <h1 style="font-size:50px;" class="text-center"><b>WebSite Name</b></h1>
+			 <!-- <div class="text-center" class="lead" style="color:#191970;text-shadow:4px 4px 4px #DAA520;"><b>ONLINE BOOK STORE</b></div> 
+	  -->
+	</nav>
+	</div>
+</body>
+</html>

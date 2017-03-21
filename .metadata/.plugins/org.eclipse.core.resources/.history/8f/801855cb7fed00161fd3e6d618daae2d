@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.panel{
+ border-radius: 5px;
+background-color:rgba(255,255,255,0.1);
+padding:15px;
+height:200px;
+font-color:white;
+}
+
+.user:before{
+content:"";
+width:10px;
+height:10px;
+position:absolute;
+background:#2ecc71;
+height:10px;
+width:10px;
+left:8px;
+top:25px;
+border-radius:5px;
+}
+</style>
+
+</head>
+<body>
+<div class="col-xs-6 col-sm-offset-3">
+<div data-ng-controller="FriendController as ctrl">
+    <div data-ng-repeat="friend in ctrl.friends | filter:{status:'A'}">
+     
+        <div data-ng-repeat="user in ctrl.users">  
+         
+             <div data-ng-show="friend.friendId==user.userId">   
+           <div data-ng-show="user.userId!=currentUser.userId"> 
+           <div class="panel" style="color:white">
+          {{user.name}}<br>
+          {{user.userId}}<br>
+          {{user.mobile}}<br>
+          {{user.mailID}}<br>
+          {{user.address}}<br><br>
+          <i data-ng-show="user.isOnline=='Y'" class="user"></i>
+          		<button class="btn btn-danger" style="float:right;" data-ng-click="ctrl.unFriend(user.userId)">UnFriend</button>
+                 &nbsp; <a href="#/chat">  <button class="btn btn-primary" style="float:right;">chat</button></a>
+          </div>
+          </div> 
+          </div>
+          
+          
+              
+              
+                <div data-ng-show="friend.userId==user.userId">   
+           <div data-ng-show="user.userId!=currentUser.userId"> 
+           <div class="panel" style="color:white">
+          {{user.name}}<br>
+          {{user.userId}}<br>
+          {{user.mobile}}<br>
+          {{user.mailID}}<br>
+          {{user.address}}<br><br>
+           <i data-ng-show="user.isOnline=='Y'" class="user"></i>
+							
+          		<button class="btn btn-danger" style="float:right;" data-ng-click="ctrl.unFriend(user.friendId)">UnFriend</button>
+        <a href="#/chat"> <button class="btn btn-primary" style="float:right;">chat</button></a>
+          </div>
+          </div> 
+          </div>
+          </div>
+          </div> </div>
+          </div>
+</body>
+</html>

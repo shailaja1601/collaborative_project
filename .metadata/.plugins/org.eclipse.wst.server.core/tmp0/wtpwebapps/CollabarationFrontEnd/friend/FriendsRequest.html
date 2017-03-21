@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.panel{
+ border-radius: 5px;
+background-color:rgba(255,255,255,0.1);
+padding:15px;
+height:200px;
+font-color:white;
+}
+</style>
+</head>
+<body>
+<div class="col-xs-6 col-sm-offset-3">
+   <div data-ng-controller="FriendController as ctrl">
+   
+    <div data-ng-repeat="friend in ctrl.pendingRequests">
+       
+           <div data-ng-repeat="user in ctrl.users" data-ng-show="friend.userId==user.userId">
+          <div class="panel" style="color:white">
+          
+           {{user.name}}<br>
+           {{user.userId}}<br>
+          {{user.mobile}}<br>
+          {{user.mailID}}<br>
+          {{user.address}}<br><br>
+          <button class="btn btn-primary" style="float:right;" data-ng-click="ctrl.acceptFriend(user.userId)">Accept</button>
+          <button class="btn btn-danger" style="float:right;" data-ng-click="ctrl.rejectFriend(user.userId)">Reject</button>
+           </div>
+           </div>   
+         </div>
+        
+     </div>
+        
+   </div>      
+</body>
+</html>

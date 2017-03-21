@@ -1,0 +1,33 @@
+<html>
+<head>
+<style type="text/css">
+.panel{
+ border-radius: 5px;
+background-color:rgba(255,255,255,0.1);
+padding:20px;
+width:500px;
+}
+</style>
+</head>
+<body>
+	<div class="generic-container" data-ng-controller="JobController as ctrl">
+		<br/><br/><br/><br/><br/>
+		<h3>List of Applied</h3>
+		<p>
+		Search Job:<input type="text" size="40" data-ng-model="searchTerm" />
+		</p><br/>
+	
+		
+		       <div data-ng-repeat="ja in ctrl.jobapplications | filter:searchTerm">
+		        <div data-ng-repeat="uj in ctrl.jobs" data-ng-show="uj.jobID==ja.jobID" style="color:white">
+		        <div class="panel">
+		            Job Title:&nbsp; {{uj.title}}<br>
+		           Job Qualification:&nbsp; {{uj.qualification}}<br>
+		           <h5>Job Description</h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:white">{{uj.description}}
+		        </div>
+		       
+		       </div>
+		</div>
+	</div>
+</body>
+</html>

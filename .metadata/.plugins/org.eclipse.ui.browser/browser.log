@@ -1,0 +1,278 @@
+
+Jan 16, 2017 16:46:28.00 NEW SESSION
+Jan 16, 2017 16:46:28.00 [8748:2412:0116/164624:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 16, 2017 16:46:54.06 [8748:2412:0116/164654:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 16, 2017 16:47:52.02 [8748:2412:0116/164752:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 16, 2017 16:49:37.20 [8748:2412:0116/164937:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 16, 2017 16:52:27.71 [8748:2412:0116/165227:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 16, 2017 16:58:12.51 [8748:2412:0116/165812:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Jan 18, 2017 24:24:36.47 NEW SESSION
+Jan 18, 2017 24:24:36.47 [8144:11116:0118/002426:ERROR:device_event_log_impl.cc(140)] [00:24:26.640] USB: usb_service_impl.cc:71 Failed to get device service property: The data is invalid. (0xD)
+
+Jan 18, 2017 12:57:57.82 NEW SESSION
+Jan 18, 2017 12:57:57.82 [3060:10784:0118/125757:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 18, 2017 12:58:27.19 [3060:10784:0118/125827:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 18, 2017 12:59:24.35 [3060:10784:0118/125924:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 18, 2017 13:00:53.03 [3060:10784:0118/130053:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 18, 2017 13:03:48.04 [3060:10784:0118/130348:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 18, 2017 13:26:37.71 [3060:10784:0118/132637:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 18, 2017 13:50:07.76 [3060:10784:0118/135007:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Jan 18, 2017 20:09:47.12 NEW SESSION
+Jan 18, 2017 20:09:47.12 [1416:10816:0118/200939:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 18, 2017 21:54:45.57 [1416:10816:0118/215441:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Jan 19, 2017 13:14:17.33 NEW SESSION
+Jan 19, 2017 13:14:17.33 [8040:136:0119/131417:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 13:14:41.17 [8040:136:0119/131441:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 13:18:10.67 [8040:136:0119/131810:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 13:20:05.12 [8040:136:0119/132005:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 13:23:39.71 [8040:136:0119/132339:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 13:34:38.75 [9968:1408:0119/133438:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 15:55:09.13 [10332:7936:0119/155505:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 15:55:27.70 [10332:7936:0119/155527:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 15:56:19.82 [10332:7936:0119/155619:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 15:58:12.30 [10332:7936:0119/155812:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 16:00:57.78 [10332:7936:0119/160057:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 16:06:38.41 [10332:7936:0119/160638:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 16:16:38.43 [10332:7936:0119/161638:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 16:26:38.42 [10332:7936:0119/162638:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 16:36:38.42 [10332:7936:0119/163638:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 16:46:38.42 [10332:7936:0119/164638:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 16:56:38.43 [10332:7936:0119/165638:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 19, 2017 17:06:38.43 [10332:7936:0119/170638:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Jan 24, 2017 14:05:22.20 NEW SESSION
+Jan 24, 2017 14:05:22.20 [4524:4576:0124/140522:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 14:05:46.85 [4524:4576:0124/140546:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 14:06:45.40 [4524:4576:0124/140645:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 14:19:22.97 [3492:1692:0124/141922:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 14:19:49.99 [3492:1692:0124/141949:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 14:20:38.63 [3492:1692:0124/142038:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 14:22:36.18 [3492:1692:0124/142236:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 14:25:47.83 [3492:1692:0124/142547:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 14:32:28.05 [3492:1692:0124/143228:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 14:42:28.06 [3492:1692:0124/144228:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Jan 24, 2017 21:32:37.92 NEW SESSION
+Jan 24, 2017 21:32:37.92 [3292:6980:0124/213237:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 21:33:06.52 [3292:6980:0124/213306:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 21:34:03.05 [3292:6980:0124/213403:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 21:35:51.13 [3292:6980:0124/213551:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Jan 24, 2017 22:03:02.47 NEW SESSION
+Jan 24, 2017 22:03:02.47 [2564:5700:0124/220302:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 22:03:30.75 [2564:5700:0124/220330:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 22:04:25.68 [2564:5700:0124/220425:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 24, 2017 22:05:47.53 [2564:5700:0124/220547:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Jan 26, 2017 08:44:51.48 NEW SESSION
+Jan 26, 2017 08:44:51.48 [1676:4900:0126/084451:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 08:45:16.73 [1676:4900:0126/084516:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 08:46:07.21 [1676:4900:0126/084607:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 08:47:57.23 [1676:4900:0126/084757:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 08:51:41.24 [1676:4900:0126/085141:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 08:59:04.42 [1676:4900:0126/085904:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Jan 26, 2017 12:07:50.73 NEW SESSION
+Jan 26, 2017 12:07:50.73 [5312:2040:0126/120750:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 12:08:12.07 [5312:2040:0126/120812:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 12:09:02.14 [5312:2040:0126/120902:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 12:10:38.74 [5312:2040:0126/121038:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 12:14:16.33 [5312:2040:0126/121416:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 12:19:42.87 [5312:2040:0126/121942:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 12:29:43.35 [5312:2040:0126/122942:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 12:39:43.35 [5312:2040:0126/123943:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 12:49:43.36 [5312:2040:0126/124943:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 12:59:43.36 [5312:2040:0126/125943:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 13:09:43.36 [5312:2040:0126/130943:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 13:19:43.36 [5312:2040:0126/131943:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 13:29:43.36 [5312:2040:0126/132943:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Jan 26, 2017 19:05:58.31 NEW SESSION
+Jan 26, 2017 19:05:58.31 Vector smash protection is enabled.
+Jan 26, 2017 19:06:31.00 [WARNING:..\..\..\..\flash\platform\pepper\pep_module.cpp(63)] SANDBOXED
+Jan 26, 2017 19:29:53.65 [8036:8840:0126/192953:ERROR:simple_index_file.cc(274)] Failed to write the temporary index file
+
+Jan 26, 2017 20:43:29.92 NEW SESSION
+Jan 26, 2017 20:43:29.92 [6932:6960:0126/204329:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 20:43:56.66 [6932:6960:0126/204356:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 20:44:39.89 [6932:6960:0126/204439:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 20:46:30.34 [6932:6960:0126/204630:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 20:49:29.67 [6932:6960:0126/204929:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 20:56:51.75 [6932:6960:0126/205651:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 21:06:51.75 [6932:6960:0126/210651:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 21:16:51.75 [6932:6960:0126/211651:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 21:26:51.75 [6932:6960:0126/212651:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 21:36:51.75 [6932:6960:0126/213651:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 23:00:45.28 [6932:6960:0126/230045:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 23:01:09.64 [6932:6960:0126/230109:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 23:01:58.88 [6932:6960:0126/230158:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 23:03:19.67 [6932:6960:0126/230319:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 23:06:49.36 [6932:6960:0126/230649:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 23:13:23.76 [6932:6960:0126/231323:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 23:23:23.77 [6932:6960:0126/232323:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 23:33:23.77 [6932:6960:0126/233323:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 23:43:23.77 [6932:6960:0126/234323:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 26, 2017 23:53:23.77 [6932:6960:0126/235323:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Jan 27, 2017 08:59:23.12 NEW SESSION
+Jan 27, 2017 08:59:23.12 [5416:6092:0127/085923:ERROR:simple_index_file.cc(274)] Failed to write the temporary index file
+Jan 27, 2017 09:05:00.87 [5416:4816:0127/090500:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 09:05:30.48 [5416:4816:0127/090530:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 09:06:11.36 [5416:4816:0127/090611:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 09:08:03.20 [5416:4816:0127/090803:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 09:11:34.16 [5416:4816:0127/091134:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 09:18:58.67 [5416:4816:0127/091858:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 10:41:29.75 [5416:4816:0127/104129:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 10:41:51.50 [5416:4816:0127/104151:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 10:42:47.43 [5416:4816:0127/104247:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 10:44:42.37 [5416:4816:0127/104442:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 10:48:41.95 [5416:4816:0127/104841:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 10:55:15.78 [5416:4816:0127/105515:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 11:05:15.78 [5416:4816:0127/110515:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 11:15:15.78 [5416:4816:0127/111515:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Jan 27, 2017 19:16:41.06 NEW SESSION
+Jan 27, 2017 19:16:41.06 [5412:1920:0127/191641.069:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 19:17:04.85 [5412:1920:0127/191704.849:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 19:17:50.75 [5412:1920:0127/191750.752:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 19:19:39.06 [5412:1920:0127/191939.065:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 19:23:20.53 [5412:1920:0127/192320.538:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 19:36:59.71 [5412:1920:0127/193659.713:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 19:46:59.71 [5412:1920:0127/194659.718:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 19:56:59.72 [5412:1920:0127/195659.720:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 20:06:59.73 [5412:1920:0127/200659.735:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 20:16:59.74 [5412:1920:0127/201659.742:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 20:26:59.76 [5412:1920:0127/202659.767:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 20:36:59.77 [5412:1920:0127/203659.779:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 20:43:36.10 [5412:1920:0127/204336.107:ERROR:CONSOLE(242)] "String.format("Error: [ngRepeat:iexp] Expected expression in form of '_item_ in _collection_[ track by _id_]' but got 'user is ctrl.users'.
+Jan 27, 2017 20:43:36.10 http://errors.angularjs.org/1.5.8/ngRepeat/iexp?p0=user%20is%20ctrl.users
+Jan 27, 2017 20:43:36.11     at http://localhost:8086/CollabarationFrontEnd/lib/angular.js:68:12
+Jan 27, 2017 20:43:36.11     at Object.ngRepeatCompile [as compile] (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:29706:15)
+Jan 27, 2017 20:43:36.11     at applyDirectivesToNode (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:9149:32)
+Jan 27, 2017 20:43:36.11     at compileNodes (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:8543:15)
+Jan 27, 2017 20:43:36.11     at compileNodes (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:8555:15)
+Jan 27, 2017 20:43:36.11     at compile (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:8442:15)
+Jan 27, 2017 20:43:36.11     at Object.link (http://localhost:8086/CollabarationFrontEnd/lib/angular-route.js:1050:18)
+Jan 27, 2017 20:43:36.11     at http://localhost:8086/CollabarationFrontEnd/lib/angular.js:1247:18
+Jan 27, 2017 20:43:36.11     at invokeLinkFn (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:9934:9)
+Jan 27, 2017 20:43:36.11     at nodeLinkFn (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:9335:11)", "[object Object]"): not enough substitution arguments. Had 1 but needed 2, so substitution was skipped.", source: chrome-devtools://devtools/bundled/inspector.js (242)
+Jan 27, 2017 20:46:59.79 [5412:1920:0127/204659.794:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 20:56:59.79 [5412:1920:0127/205659.797:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 21:06:59.79 [5412:1920:0127/210659.798:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 21:16:59.87 [5412:1920:0127/211659.878:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 21:26:59.88 [5412:1920:0127/212659.879:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 23:45:37.26 [4304:6760:0127/234537.261:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 23:46:00.87 [4304:6760:0127/234600.870:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 23:46:49.56 [4304:6760:0127/234649.562:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 23:48:30.09 [4304:6760:0127/234830.099:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 27, 2017 23:51:56.53 [4304:6760:0127/235156.535:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Jan 28, 2017 08:22:04.16 NEW SESSION
+Jan 28, 2017 08:22:04.16 [5224:728:0128/082204.164:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 28, 2017 08:22:29.00 [5224:728:0128/082229.008:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 28, 2017 08:23:15.06 [5224:728:0128/082315.065:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 28, 2017 08:25:13.46 [5224:728:0128/082513.460:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 28, 2017 08:29:27.69 [5224:728:0128/082927.696:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 28, 2017 09:39:42.40 [5224:728:0128/093942.398:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 28, 2017 09:40:02.98 [5224:728:0128/094002.982:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 28, 2017 09:41:02.57 [5224:728:0128/094102.576:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 28, 2017 09:42:40.35 [5224:728:0128/094240.351:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 28, 2017 09:45:22.96 [5224:728:0128/094522.960:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 28, 2017 09:56:52.71 [5224:728:0128/095652.715:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 28, 2017 10:06:52.71 [5224:728:0128/100652.717:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Jan 30, 2017 15:13:04.77 NEW SESSION
+Jan 30, 2017 15:13:04.77 [6716:7212:0130/151304.762:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 15:13:25.41 [6716:7212:0130/151325.417:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 15:14:23.18 [6716:7212:0130/151423.188:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 15:15:56.81 [6716:7212:0130/151556.816:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 15:19:37.12 [6716:7212:0130/151937.124:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 15:27:14.66 [6716:7212:0130/152714.659:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 15:37:14.66 [6716:7212:0130/153714.662:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 15:47:14.66 [6716:7212:0130/154714.665:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 15:49:33.20 [6716:7212:0130/154933.207:ERROR:CONSOLE(242)] "String.format("Error: [$parse:syntax] Syntax Error: Token '|' not a primary expression at column 19 of the expression [ctrl.friends <!-- | filter:{status:'A'} -->] starting at [| filter:{status:'A'} -->].
+Jan 30, 2017 15:49:33.20 http://errors.angularjs.org/1.5.8/$parse/syntax?p0=%7C&p1=not%20a%20primary%20expression&p2=19&p3=ctrl.friends%20%3C!--%20%7C%20filter%3A%7Bstatus%3A'A'%7D%20--%3E&p4=%7C%20filter%3A%7Bstatus%3A'A'%7D%20--%3E
+Jan 30, 2017 15:49:33.21     at http://localhost:8086/CollabarationFrontEnd/lib/angular.js:68:12
+Jan 30, 2017 15:49:33.21     at AST.throwError (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14555:11)
+Jan 30, 2017 15:49:33.21     at AST.primary (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14443:12)
+Jan 30, 2017 15:49:33.21     at AST.unary (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14421:19)
+Jan 30, 2017 15:49:33.21     at AST.unary (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14419:94)
+Jan 30, 2017 15:49:33.21     at AST.unary (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14419:94)
+Jan 30, 2017 15:49:33.21     at AST.unary (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14419:94)
+Jan 30, 2017 15:49:33.21     at AST.multiplicative (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14408:21)
+Jan 30, 2017 15:49:33.21     at AST.additive (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14399:21)
+Jan 30, 2017 15:49:33.21     at AST.relational (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14393:90)", "[object Object]"): not enough substitution arguments. Had 1 but needed 2, so substitution was skipped.", source: chrome-devtools://devtools/bundled/inspector.js (242)
+Jan 30, 2017 15:49:33.26 [6716:7212:0130/154933.260:ERROR:CONSOLE(242)] "String.format("Error: [$parse:syntax] Syntax Error: Token '|' not a primary expression at column 19 of the expression [ctrl.friends <!-- | filter:{status:'A'} -->] starting at [| filter:{status:'A'} -->].
+Jan 30, 2017 15:49:33.26 http://errors.angularjs.org/1.5.8/$parse/syntax?p0=%7C&p1=not%20a%20primary%20expression&p2=19&p3=ctrl.friends%20%3C!--%20%7C%20filter%3A%7Bstatus%3A'A'%7D%20--%3E&p4=%7C%20filter%3A%7Bstatus%3A'A'%7D%20--%3E
+Jan 30, 2017 15:49:33.26     at http://localhost:8086/CollabarationFrontEnd/lib/angular.js:68:12
+Jan 30, 2017 15:49:33.26     at AST.throwError (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14555:11)
+Jan 30, 2017 15:49:33.26     at AST.primary (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14443:12)
+Jan 30, 2017 15:49:33.26     at AST.unary (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14421:19)
+Jan 30, 2017 15:49:33.26     at AST.unary (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14419:94)
+Jan 30, 2017 15:49:33.26     at AST.unary (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14419:94)
+Jan 30, 2017 15:49:33.26     at AST.unary (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14419:94)
+Jan 30, 2017 15:49:33.26     at AST.multiplicative (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14408:21)
+Jan 30, 2017 15:49:33.26     at AST.additive (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14399:21)
+Jan 30, 2017 15:49:33.26     at AST.relational (http://localhost:8086/CollabarationFrontEnd/lib/angular.js:14393:90)", "[object Object]"): not enough substitution arguments. Had 1 but needed 2, so substitution was skipped.", source: chrome-devtools://devtools/bundled/inspector.js (242)
+Jan 30, 2017 15:57:14.66 [6716:7212:0130/155714.666:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 16:07:14.67 [6716:7212:0130/160714.673:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 16:17:14.67 [6716:7212:0130/161714.675:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 16:27:14.67 [6716:7212:0130/162714.676:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 16:37:14.67 [6716:7212:0130/163714.678:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 16:47:14.68 [6716:7212:0130/164714.679:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 16:57:14.68 [6716:7212:0130/165714.682:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 17:07:14.68 [6716:7212:0130/170714.687:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 17:17:14.69 [6716:7212:0130/171714.696:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Jan 30, 2017 17:27:14.69 [6716:7212:0130/172714.697:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Feb 01, 2017 02:42:47.15 NEW SESSION
+Feb 01, 2017 02:42:47.15 [6396:348:0201/024246.754:ERROR:simple_index_file.cc(274)] Failed to write the temporary index file
+Feb 01, 2017 03:25:11.82 [6396:348:0201/032511.827:ERROR:simple_index_file.cc(274)] Failed to write the temporary index file
+Feb 01, 2017 04:08:36.43 [6396:348:0201/040836.432:ERROR:simple_index_file.cc(274)] Failed to write the temporary index file
+
+Feb 01, 2017 13:17:18.27 NEW SESSION
+Feb 01, 2017 13:17:18.27 [6148:6024:0201/131718.243:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 01, 2017 13:17:46.91 [6148:6024:0201/131746.913:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 01, 2017 13:18:40.03 [6148:6024:0201/131840.038:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 01, 2017 13:20:06.67 [6148:6024:0201/132006.672:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 01, 2017 13:23:27.47 [6148:6024:0201/132327.474:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 01, 2017 13:30:40.98 [6148:6024:0201/133040.982:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Feb 03, 2017 13:40:31.76 NEW SESSION
+Feb 03, 2017 13:40:31.76 [7084:7676:0203/134031.705:ERROR:waituntilobserver.cpp(145)] NOT IMPLEMENTED
+
+Feb 04, 2017 20:31:13.65 NEW SESSION
+Feb 04, 2017 20:31:13.66 Vector smash protection is enabled.
+Feb 04, 2017 20:31:45.50 [WARNING:..\..\..\..\flash\platform\pepper\pep_module.cpp(63)] SANDBOXED
+Feb 04, 2017 21:56:06.86 Vector smash protection is enabled.
+Feb 04, 2017 21:56:37.02 [WARNING:..\..\..\..\flash\platform\pepper\pep_module.cpp(63)] SANDBOXED
+
+Feb 07, 2017 15:01:46.43 NEW SESSION
+Feb 07, 2017 15:01:46.43 [38424:30740:0207/150146.404:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 07, 2017 15:02:15.59 [38424:30740:0207/150215.596:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 07, 2017 15:03:06.98 [38424:30740:0207/150306.987:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 07, 2017 15:04:58.96 [38424:30740:0207/150458.967:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 07, 2017 15:08:33.19 [38424:30740:0207/150833.196:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 07, 2017 15:13:57.76 [38424:30740:0207/151357.762:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 07, 2017 15:23:57.76 [38424:30740:0207/152357.763:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 07, 2017 15:33:57.76 [38424:30740:0207/153357.765:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 07, 2017 15:43:57.76 [38424:30740:0207/154357.768:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 07, 2017 15:53:57.77 [38424:30740:0207/155357.769:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 07, 2017 16:03:57.77 [38424:30740:0207/160357.770:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 07, 2017 16:13:57.77 [38424:30740:0207/161357.772:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 07, 2017 16:23:57.77 [38424:30740:0207/162357.774:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 07, 2017 16:25:33.44 [38424:34656:0207/162533.447:ERROR:ssl_client_socket_impl.cc(1101)] handshake failed; returned -1, SSL error code 1, net_error -101
+Feb 07, 2017 16:25:33.55 [38424:34656:0207/162533.556:ERROR:ssl_client_socket_impl.cc(1101)] handshake failed; returned -1, SSL error code 1, net_error -101
+Feb 07, 2017 16:26:07.11 [38424:34656:0207/162607.114:ERROR:ssl_client_socket_impl.cc(1101)] handshake failed; returned -1, SSL error code 1, net_error -101
+Feb 07, 2017 16:26:07.18 [38424:34656:0207/162607.186:ERROR:ssl_client_socket_impl.cc(1101)] handshake failed; returned -1, SSL error code 1, net_error -101
+Feb 07, 2017 16:26:07.56 [38424:34656:0207/162607.567:ERROR:ssl_client_socket_impl.cc(1101)] handshake failed; returned -1, SSL error code 1, net_error -101
+Feb 07, 2017 16:26:07.63 [38424:34656:0207/162607.637:ERROR:ssl_client_socket_impl.cc(1101)] handshake failed; returned -1, SSL error code 1, net_error -101
+
+Feb 08, 2017 11:15:31.83 NEW SESSION
+Feb 08, 2017 11:15:31.83 [6960:6964:0208/111531.747:ERROR:gles2_cmd_decoder.cc(15117)] Context lost because SwapBuffers failed.
+Feb 08, 2017 11:15:32.01 [6960:6964:0208/111531.750:ERROR:gles2_cmd_decoder.cc(5202)] Error: 5 for Command kPostSubBufferCHROMIUM
+Feb 08, 2017 11:15:32.01 [6960:6964:0208/111531.751:ERROR:gpu_channel_manager.cc(224)] Exiting GPU process because some drivers cannot recover from problems.
+Feb 08, 2017 11:15:33.60 [6564:6600:0208/111533.332:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 336

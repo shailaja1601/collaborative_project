@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="resources/css/bootstrap.min.css" />
+<script src="resources/js/bootstrap.min.js"></script>
+
+
+
+</head>
+<body data-ng-app="myApp">
+	<div class="container">
+		<div class="col-lg-12" data-ng-controller="BlogController as ctrl">
+			<br />
+			<br />
+			<br />
+			<h3 style="color:white">List of Blogs</h3>
+			<h4 style="color:white">Search Blog:</h4><input type="text" class="form-control control-label" placeholder="Type here to search"
+				size="50" data-ng-model="searchTerm" /><br />
+			<div class="col-lg-12"
+				data-ng-repeat="ub in ctrl.blogs |  filter:searchTerm | orderBy:blogcreatedate" data-ng-show="currentUser.userId==ub.userID">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h3 class="panel-title" style="font-weight: bold;">
+							<b><a data-ng-href="#/viewblog">{{ub.blogtitle}}</a></b>
+						</h3>
+					</div>
+					<div class="panel-body" style="text-align: justify;">
+						{{ub.description}}<br />
+					</div>
+					<p>
+						<span class="glyphicon glyphicon-calander"></span> Posted on :
+						{{ub.blogcreatedate | date:fullDate}}&nbsp;&nbsp;&nbsp; <b
+							style="color: red;" ng-show="{{ub.approve=='N'}}">Not
+							Approved By Admin</b> <b style="color: green;"
+							ng-show="{{ub.approve=='Y'}}">Approved By Admin</b>
+						&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-danger"
+							value="Delete" ng-click="ctrl.delblog(ub.blogid)">
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

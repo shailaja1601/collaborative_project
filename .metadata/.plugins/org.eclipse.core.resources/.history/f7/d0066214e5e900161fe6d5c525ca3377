@@ -1,0 +1,12 @@
+package com.niit.collabaration.dao;
+
+import com.niit.colchatting.model.FileUpload;
+
+public interface FileUploadDAO {
+	
+	void save(FileUpload uploadFile);
+	FileUpload getFile(String username);
+}
+
+
+

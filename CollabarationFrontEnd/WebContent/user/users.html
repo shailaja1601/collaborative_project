@@ -1,0 +1,66 @@
+<head>
+<style>
+ .panel-body{
+ margin-top:20px;
+ border-radius: 20px;
+background-color:rgba(255,255,255,0.1);
+color:white;
+}  
+</style>
+</head>
+<body>
+<div data-ng-controller="UserController as ctrl">
+<div class="panel-body">
+<table class="table">
+       <thead>
+		<tr>
+		<th width="80">User ID</th>
+		<th width="180">User Name</th>
+		<th width="150">User MailID</th>
+		<th width="80">Contact</th>
+		<th width="80">User Role</th>
+		<th width="100">User Status</th>
+		<th width="100">Make Admin</th>
+		<th width="80">Accept</th>
+		<th width="80">Reject</th>
+		
+		</tr>
+		</thead>
+		<tbody>
+	   <tr data-ng-repeat="user in ctrl.users">
+		<th width="80">{{user.userId}}</th>
+		<th width="180">{{user.name}}</th>
+		<th width="150">{{user.mailID}}</th>
+		<th width="80">{{user.mobile}}</th>
+		<th width="80">{{user.role}}</th>
+		<th width="80">{{user.status}}</th>
+		<!-- data-ng-click="ctrl.logout()" -->
+		<th><a class="btn" data-ng-click="ctrl.makeAdmin(user.userId)" aria-label="Admin" data-ng-disabled="user.role=='Admin'"  data-ng-hide="user.role=='Admin'">
+             <i class="fa fa-user-secret fa-lg" aria-hidden="true"></i></a>
+             
+             <a class="btn" data-ng-show="user.role=='Admin'" data-ng-disabled="user.role=='Admin'">
+             <i class="fa fa-user-secret fa-lg" aria-hidden="true" style="color:SpringGreen;"></i></a>
+             
+             </th>
+             
+        <th><a class="btn"  data-ng-click="ctrl.accept(user.userId)" data-ng-disabled="user.status=='A'" data-ng-show="user.status=='N'">
+                     <i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></a>
+                     
+                     <a class="btn" data-ng-hide="user.status=='N'" data-ng-disabled="user.status!='N'">
+             <i class="fa fa-thumbs-up fa-lg" aria-hidden="true" style="color:SpringGreen;"></i></a>
+             
+        </th>  
+            
+                     
+          <th><a class="btn" data-ng-click="ctrl.reject(user.userId)"  data-ng-hide="user.status=='R'" data-ng-disabled="user.status=='A'">
+              <i  class="fa fa-ban fa-lg" aria-hidden="true"></i></a>
+               <a class="btn" data-ng-show="user.status=='R'" data-ng-disabled="user.status=='R'"><i class="fa fa-ban fa-lg" aria-hidden="true" style="color:red;"></i></a>
+              
+</th>       
+		</tr>
+		</tbody>
+		</table>
+</div>
+</div>
+</div>
+</body>

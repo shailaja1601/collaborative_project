@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CollabarationFrontEnd/WebContent/upload/profilepictureupload.html&apos; to &apos;picupload.html&apos;" description="Rename resource &apos;profilepictureupload.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/upload/profilepictureupload.html" name="picupload.html" stamp="1486110914080" updateReferences="true"/>
+</session>

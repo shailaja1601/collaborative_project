@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="shortcut icon" href="favicon.ico">
+<style>
+.input-group{
+border-radius: 5px;
+}
+.panel{
+ border-radius: 5px;
+background-color:rgba(255,255,255,0.1);
+padding:15px;
+}
+</style>
+
+</head>
+<body data-ng-app="myApp">
+<div class="col-xs-10 col-sm-offset-1">
+
+ <div class="panel-body"> 
+	<div class="col-lg-12" data-ng-controller="BlogController as ctrl">
+		<br/><br/><br/>
+		<h3 style="color:white">List of Blogs</h3>
+		<div class="form-group col-md-9">
+		<h5 style="color:white">Search Blog:</h5>
+		
+		 <div class="input-group"> 
+					<input type="text" class="form-control"
+						placeholder="Type here to search" data-ng-model="searchTerm" size="50px"/>
+					
+				</div>
+		</div>
+		
+		<div class="col-lg-12" data-ng-repeat="ub in ctrl.blogs  | filter:{approve: 'Y'} | filter:searchTerm | orderBy:blogcreatedate" ">
+			<div class="panel"> 
+				<div class="panel-heading" style="color:white">
+				<!-- <h3>ID: {{ub.blogid}}</h3> &nbsp;  &nbsp;  &nbsp; -->
+					<h3 class="panel-title" style="font-weight: bold;color:white">
+						<b>{{ub.blogtitle}}</b>
+					</h3>
+				</div>
+				<div class="panel-body" style="color:white" style="text-align: justify;">
+					{{ub.description}}<br/>
+				</div>
+				<p>
+					<span class="glyphicon glyphicon-calander" style="color:white"> Posted on {{ub.blogcreatedate | date:fullDate}}</span>&nbsp;&nbsp;&nbsp;
+					<span class="glyphicon glyphicon-user" style="color:white">Posted by {{ub.userID}}</span>
+				</p>
+				<p data-ng-hide="currentUser.userId==undefined">
+					&nbsp;&nbsp;&nbsp;<button name="button" class="btn btn-success" data-ng-click="ctrl.likeclick(ub.blogid)">Likes&nbsp;#&nbsp;{{ub.likes}}</button>
+				</p>
+			</div>
+		<!-- </div> -->
+	
+</div>
+<!-- </div> -->
+</div></div>
+</body>
+</html>

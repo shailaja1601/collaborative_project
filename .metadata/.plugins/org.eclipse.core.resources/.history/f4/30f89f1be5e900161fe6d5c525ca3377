@@ -1,0 +1,12 @@
+package com.niit.collabaration.dao;
+
+
+
+public interface FileUploadDAO {
+	
+	void save(FileUpload uploadFile);
+	FileUpload getFile(String username);
+}
+
+
+

@@ -1,0 +1,49 @@
+package com.niit.collabaration.daoimpl;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.niit.colchatting.dao.FileUploadDAO;
+import com.niit.colchatting.model.FileUpload;
+
+
+
+@Repository("fileUploadDAO")
+public class FileUploadDAOImpl implements FileUploadDAO{
+	
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	public FileUploadDAOImpl() {
+	}
+
+	public FileUploadDAOImpl(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	
+	@Transactional
+	public void save(FileUpload uploadFile) {
+		Session session=sessionFactory.openSession();
+		session.save(uploadFile);
+		session.flush();
+		session.close();
+	}
+
+	@Transactional
+	public FileUpload getFile(String username) {
+		Session session=sessionFactory.openSession();
+		Query query=session.createQuery("from UploadFile where username=?");
+		query.setParameter(0, username);
+        FileUpload uploadFile=(FileUpload)query.uniqueResult();
+		session.close();
+		return uploadFile;
+	}
+
+
+
+}

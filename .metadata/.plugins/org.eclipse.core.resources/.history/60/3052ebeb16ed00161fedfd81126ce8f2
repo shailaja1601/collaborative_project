@@ -1,0 +1,83 @@
+
+<body>
+
+<div data-ng-hide="CurrentUser==''" >
+	<div class="generic-container" data-ng-controller="JobController as ctrl">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<span class="lead">Please fill in the Job Details </span>
+				</div>
+				<div class="formcontainer">
+					<form ng-submit="ctrl.submit()" name="myForm"
+						class="form-horizontal">
+						
+						<div class="row">
+							<div class="form-group col-md-12">
+								<label class="col-md-2 control-lable" for="title">Job ID</label>
+								<div class="col-md-7">
+									<input type="text" ng-model="ctrl.job.id" id="id"
+										class="title form-control input-sm"
+										placeholder="Enter the job id" required ng-minlength="3" />
+								</div>
+							</div>
+						</div>
+						
+
+
+						<div class="row">
+							<div class="form-group col-md-12">
+								<label class="col-md-2 control-lable" for="title">Job Title</label>
+								<div class="col-md-7">
+									<input type="text" ng-model="ctrl.job.title" id="title"
+										class="title form-control input-sm"
+										placeholder="Enter the job title" required ng-minlength="3" />
+								</div>
+							</div>
+						</div>
+
+
+						<div class="row">
+							<div class="form-group col-md-12">
+								<label class="col-md-2 control-lable" for="qualification">Qualification</label>
+								<div class="col-md-7">
+									<input type="text" ng-model="ctrl.job.qualification" id="qualification"
+										class="title form-control input-sm"
+										placeholder="Enter your qualification" required ng-minlength="3" />
+								</div>
+							</div>
+						</div>
+
+						
+
+						<div class="row">
+							<div class="form-group col-md-12">
+								<label class="col-md-2 control-lable" for="description">Description</label>
+								<div class="col-md-7">
+									<textarea rows ="50" cols ="100"
+										ng-model="ctrl.job.description" id="description"
+										class="form-control input-sm"
+										placeholder="Enter Job Description." required>
+										</textarea> 
+								</div>
+							</div>
+						</div>
+
+
+
+						<div class="row">
+							<div class="form-actions floatRight">
+								<input type="submit" value="Create Job"
+									class="btn btn-primary btn-sm">
+								<button type="button" ng-click="ctrl.reset()"
+									class="btn btn-warning btn-sm">Reset Job</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+</body>

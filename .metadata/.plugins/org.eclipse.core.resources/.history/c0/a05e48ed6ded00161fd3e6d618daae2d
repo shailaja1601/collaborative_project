@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.panel{
+ border-radius: 5px;
+background-color:rgba(255,255,255,0.1);
+padding:15px;
+height:200px;
+font-color:white;
+}
+</style>
+
+</head>
+<body>
+<div class="col-xs-6 col-sm-offset-3">
+<div data-ng-controller="FriendController as ctrl">
+    <div data-ng-repeat="friend in ctrl.friends | filter:{status:'A'}">
+     
+        <div data-ng-repeat="user in ctrl.users">  
+         
+             <div data-ng-show="friend.friendId==user.userId">   
+           <div data-ng-show="user.userId!=currentUser.userId"> 
+           <div class="panel">
+          {{user.name}}<br>
+          {{user.userId}}<br>
+          {{user.mobile}}<br>
+          {{user.mailID}}<br>
+          {{user.address}}<br><br>
+          		<button class="btn btn-danger" style="float:right;" data-ng-click="ctrl.unFriend(user.userId)">UnFriend</button>
+                  <a href="#/chat">  <button class="btn btn-primary" style="float:right;">chat</button></a>
+          </div>
+          </div> 
+          </div>
+          
+          
+              
+              
+                <div data-ng-show="friend.userId==user.userId">   
+           <div data-ng-show="user.userId!=currentUser.userId"> 
+           <div class="panel">
+          {{user.name}}<br>
+          {{user.userId}}<br>
+          {{user.mobile}}<br>
+          {{user.mailID}}<br>
+          {{user.address}}<br><br>
+          		<button class="btn btn-danger" style="float:right;" data-ng-click="ctrl.unFriend(user.friendId)">UnFriend</button>
+          <a href="#/chat"> <button class="btn btn-primary" style="float:right;">chat</button></a>
+          </div>
+          </div> 
+          </div>
+          </div>
+          </div> </div>
+          </div>
+</body>
+</html>
